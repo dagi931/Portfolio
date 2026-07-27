@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagim Derbe's Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="#home" class="logo">Dagim Derbe<span></span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#about"><span class="fn">about</span><span class="punct"></span></a>
+      <a href="#skills"><span class="fn">skills</span><span class="punct"></span></a>
+      <a href="#projects"><span class="fn">projects</span><span class="punct"></span></a>
+      <a href="#contact"><span class="fn">contact</span><span class="punct"></span></a>
+    </div>
+    <div class="nav-actions">
+      <!-- Replace href="#" with a link to your resume PDF -->
+      <a href="#" download class="btn btn-ghost nav-resume-btn">Resume</a>
+      <a href="#contact" class="btn btn-primary">Get in touch</a>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle menu" id="menuToggle" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<section id="home">
+  <div class="wrap hero-center">
+    <div class="hero">
+      <div class="status-pill"><span class="status-dot"></span> Open to my first internship or junior role</div>
+      <h1>Still learning.<br> Already building <span class="accent-text">modern web.</span></h1>
+      <p class="lead">I'm Dagim Derbe, a web developer. No professional experience yet — but a growing stack of real projects, a lot of late nights learning, and code I'm genuinely proud to show.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="social-row">
+        <!-- Replace href="#" with your GitHub profile URL -->
+        <a href="https://github.com/dagi931" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.42 3.44 10 8.2 11.63.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.44-1.34-1.83-1.34-1.83-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6 0c2.28-1.6 3.29-1.27 3.29-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.97 1.24 3.32 0 4.76-2.81 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.38 0 .33.21.72.83.6C20.57 22.3 24 17.71 24 12.3 24 5.5 18.63 0 12 0z"/></svg>
+        </a>
+        <!-- Replace href="#" with your LinkedIn profile URL -->
+        <a href="https://www.linkedin.com/in/dagim-derbe-9061a4311?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <!-- Replace href="#" with your Telegram username link -->
+        <a href="https://t.me/Dagi931" aria-label="Telegram" title="Telegram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.05 2.34a1.4 1.4 0 0 0-1.44-.2L2.62 9.2a1.32 1.32 0 0 0 .1 2.47l4.4 1.42 1.68 5.4c.15.47.55.8 1.03.8.3 0 .58-.13.79-.35l2.46-2.55 4.3 3.16c.23.17.5.26.79.26.18 0 .36-.04.53-.11.42-.19.72-.57.79-1.02l2.98-15.2c.1-.48-.07-.96-.48-1.24zM8.9 12.63l8.98-5.53-7.34 6.9-.32 2.98-1.32-4.35z"/></svg>
+        </a>
+        <!-- Replace href="#" with your WhatsApp link, e.g. https://wa.me/1234567890 -->
+        <a href="https://wa.me/qr/KWXI6XHLU25FK1" aria-label="WhatsApp" title="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.97-.93-.27-.1-.46-.15-.65.14-.2.3-.75.93-.92 1.12-.17.2-.34.22-.63.08-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.43-1.7-1.6-1.99-.17-.3-.02-.46.13-.6.13-.13.29-.34.44-.51.15-.17.2-.3.29-.49.1-.2.05-.37-.02-.51-.08-.15-.65-1.57-.9-2.15-.24-.57-.48-.49-.65-.5h-.56c-.2 0-.5.07-.77.37-.26.3-1 .98-1 2.4 0 1.4 1.03 2.76 1.17 2.95.15.2 2.02 3.08 4.9 4.32.69.3 1.22.47 1.64.6.69.22 1.32.19 1.81.11.55-.08 1.7-.7 1.94-1.36.24-.68.24-1.26.17-1.38-.07-.12-.26-.2-.55-.34z"/><path d="M12 2a10 10 0 0 0-8.6 15.02L2 22l5.13-1.35A10 10 0 1 0 12 2zm0 18.15a8.13 8.13 0 0 1-4.15-1.14l-.3-.18-3.05.8.82-2.97-.2-.3A8.15 8.15 0 1 1 12 20.15z"/></svg>
+        </a>
+        <!-- Update mailto: with your real email -->
+        <a href="mailto:dagiderbe59@gmail.com" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 6l9 7 9-7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo reveal">
+      <div class="about-photo-mark"><strong>Photo</strong>replace with<br>your headshot
+      <img src="C:\Users\dagid\OneDrive\Pictures\20260510_115736.jpg"></div>
+    </div>
+    <div class="about reveal">
+      <h2>Still early in my journey — building something every week.</h2>
+      <p>I'm currently studying <strong>Software Engineering</strong> at college, where I've been strengthening my programming skills by combining coursework with practical projects and continuous practice.</p>
+      <p>Right now I'm looking for my <strong>first internship or junior role</strong> where I can keep learning fast, take feedback well, and contribute wherever I'm needed. I show up consistently, I care about the details, and I'm not afraid to say "I don't know yet — but I'll find out."</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="num">15+</div><div class="label">Projects built</div></div>
+        <div class="stat"><div class="num">1+</div><div class="label">years of daily practice</div></div>
+        <div class="stat"><div class="num">10+</div><div class="label">Tools &amp; languages learned</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <h2>Tools I reach for</h2>
+      </div>
+      <p>What I've picked up so far through course-study,self-study and hands-on projects — and what I actively use every time I build something new.</p>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">01</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+        </div>
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><span style="width:78%"></span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">02</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18M3 12h18"/></svg></span>
+        </div>
+        <h3>React</h3>
+        <div class="skill-bar"><span style="width:68%"></span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">03</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 17V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10"/><path d="M2 17h20l-2 4H4z"/></svg></span>
+        </div>
+        <h3>Python</h3>
+        <div class="skill-bar"><span style="width:60%"></span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">04</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></span>
+        </div>
+        <h3>Databases</h3>
+        <div class="skill-bar"><span style="width:52%"></span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">05</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
+        </div>
+        <h3>System Design</h3>
+        <div class="skill-bar"><span style="width:38%"></span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">06</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 6 6 1-4.5 4.5L18 20l-6-3-6 3 1.5-6.5L3 9l6-1z"/></svg></span>
+        </div>
+        <h3>C#</h3>
+        <div class="skill-bar"><span style="width:64%"></span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">07</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+        </div>
+        <h3>C++</h3>
+        <div class="skill-bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-top">
+          <span class="skill-index">08</span>
+          <span class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a5 5 0 0 0-5 5v3H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2V7a5 5 0 0 0-5-5z"/></svg></span>
+        </div>
+        <h3>Java</h3>
+        <div class="skill-bar"><span style="width:84%"></span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <h2>Things I've built</h2>
+      </div>
+      <p>Personal and practice projects I built to learn by doing — replace these with your own, real ones.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <span class="project-thumb-glyph"><img src="resources/photo-1470229722913-7c0e2dbbafd3 (1).jpeg"></span>
+          <span class="project-year">2026</span>
+        </div>
+        <div class="project-body">
+          <h3>FestMore — Website</h3>
+          <p>A personal project done for to adapt and build a good responsive website.</p>
+          <div class="tag-row">
+            <span class="tag">Html</span><span class="tag">CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://festmore-website.vercel.app/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>Live demo</a>
+            <a href="https://github.com/dagi931/Festmore-website"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.42 3.44 10 8.2 11.63.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.44-1.34-1.83-1.34-1.83-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6 0c2.28-1.6 3.29-1.27 3.29-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.97 1.24 3.32 0 4.76-2.81 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.38 0 .33.21.72.83.6C20.57 22.3 24 17.71 24 12.3 24 5.5 18.63 0 12 0z"/></svg>Source</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <span class="project-thumb-glyph"><img src="C:\Users\dagid\OneDrive\Documents\Portfolio\resources\Screenshot 2026-07-26 203022.png"></span>
+          <span class="project-year">2026</span>
+        </div>
+        <div class="project-body">
+          <h3>New-Apple — Website</h3>
+          <p>A personal project done for to adapt and build a good responsive website.</p>
+          <div class="tag-row">
+            <span class="tag">Html</span><span class="tag">CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://new-apple-website.vercel.app/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>Live demo</a>
+            <a href="https://github.com/dagi931/new-apple-website"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.42 3.44 10 8.2 11.63.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.44-1.34-1.83-1.34-1.83-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6 0c2.28-1.6 3.29-1.27 3.29-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.97 1.24 3.32 0 4.76-2.81 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.38 0 .33.21.72.83.6C20.57 22.3 24 17.71 24 12.3 24 5.5 18.63 0 12 0z"/></svg>Source</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <span class="project-thumb-glyph"><img src="C:\Users\dagid\OneDrive\Documents\Portfolio\resources\Screenshot 2026-07-26 203241.png"></span>
+          <span class="project-year">2026</span>
+        </div>
+        <div class="project-body">
+          <h3>Mekedoniya — database for mekedoniya</h3>
+          <p>Built to practice and challenge my self by developing the database for mekedoniya organization</p>
+          <div class="tag-row">
+            <span class="tag">SQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>Live demo</a>
+            <a href="https://github.com/dagi931/Mekedoniya-Database"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.42 3.44 10 8.2 11.63.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.44-1.34-1.83-1.34-1.83-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6 0c2.28-1.6 3.29-1.27 3.29-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.97 1.24 3.32 0 4.76-2.81 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.38 0 .33.21.72.83.6C20.57 22.3 24 17.71 24 12.3 24 5.5 18.63 0 12 0z"/></svg>Source</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <span class="project-thumb-glyph"><img src="C:\Users\dagid\OneDrive\Documents\Portfolio\resources\Screenshot 2026-07-26 203612.png"></span>
+          <span class="project-year">2026</span>
+        </div>
+        <div class="project-body">
+          <h3>Bank Management System</h3>
+          <p>built it to understande and master the concepts of java.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>Live demo</a>
+            <a href="https://github.com/dagi931/Bank-Management-System"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.42 3.44 10 8.2 11.63.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.44-1.34-1.83-1.34-1.83-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6 0c2.28-1.6 3.29-1.27 3.29-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.97 1.24 3.32 0 4.76-2.81 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.38 0 .33.21.72.83.6C20.57 22.3 24 17.71 24 12.3 24 5.5 18.63 0 12 0z"/></svg>Source</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <h2>Let's talk — I'm ready to learn on the job.</h2>
+      </div>
+      <p>Whether it's an internship, a junior role, or just advice from someone more experienced — I'd love to hear from you.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <a href="mailto:dagiDerbe59@gmail.com" class="contact-email">dagiderbe59@gmail.com</a>
+        <p class="contact-note">I check my inbox daily and usually reply within a day or two. No professional experience yet, but I promise to make up for it in effort.</p>
+        <ul class="contact-detail-list">
+          <li><span class="cd-label">Location</span><span>Remote · Worldwide</span></li>
+          <li><span class="cd-label">Status</span><span>Open to internships &amp; junior roles</span></li>
+          <li><span class="cd-label">Resume</span><a href="#" download>Download PDF ↓</a></li>
+        </ul>
+        <div class="contact-social">
+          <!-- Replace href="#" with your GitHub profile URL -->
+          <a href="https://github.com/dagi931" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.42 3.44 10 8.2 11.63.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.44-1.34-1.83-1.34-1.83-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6 0c2.28-1.6 3.29-1.27 3.29-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.97 1.24 3.32 0 4.76-2.81 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.38 0 .33.21.72.83.6C20.57 22.3 24 17.71 24 12.3 24 5.5 18.63 0 12 0z"/></svg></a>
+          <!-- Replace href="#" with your LinkedIn profile URL -->
+          <a href="https://www.linkedin.com/in/dagim-derbe-9061a4311?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <!-- Replace href="#" with your Telegram username link -->
+          <a href="https://t.me/Dagi931" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.05 2.34a1.4 1.4 0 0 0-1.44-.2L2.62 9.2a1.32 1.32 0 0 0 .1 2.47l4.4 1.42 1.68 5.4c.15.47.55.8 1.03.8.3 0 .58-.13.79-.35l2.46-2.55 4.3 3.16c.23.17.5.26.79.26.18 0 .36-.04.53-.11.42-.19.72-.57.79-1.02l2.98-15.2c.1-.48-.07-.96-.48-1.24zM8.9 12.63l8.98-5.53-7.34 6.9-.32 2.98-1.32-4.35z"/></svg></a>
+          <!-- Replace href="#" with your WhatsApp link, e.g. https://wa.me/1234567890 -->
+          <a href="https://wa.me/qr/KWXI6XHLU25FK1" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.97-.93-.27-.1-.46-.15-.65.14-.2.3-.75.93-.92 1.12-.17.2-.34.22-.63.08-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.43-1.7-1.6-1.99-.17-.3-.02-.46.13-.6.13-.13.29-.34.44-.51.15-.17.2-.3.29-.49.1-.2.05-.37-.02-.51-.08-.15-.65-1.57-.9-2.15-.24-.57-.48-.49-.65-.5h-.56c-.2 0-.5.07-.77.37-.26.3-1 .98-1 2.4 0 1.4 1.03 2.76 1.17 2.95.15.2 2.02 3.08 4.9 4.32.69.3 1.22.47 1.64.6.69.22 1.32.19 1.81.11.55-.08 1.7-.7 1.94-1.36.24-.68.24-1.26.17-1.38-.07-.12-.26-.2-.55-.34z"/><path d="M12 2a10 10 0 0 0-8.6 15.02L2 22l5.13-1.35A10 10 0 1 0 12 2zm0 18.15a8.13 8.13 0 0 1-4.15-1.14l-.3-.18-3.05.8.82-2.97-.2-.3A8.15 8.15 0 1 1 12 20.15z"/></svg></a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-row">
+          <label for="femail">Email</label>
+          <input type="email" id="femail" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="fmsg">Message</label>
+          <textarea id="fmsg" name="message" rows="5" placeholder="Tell me about the role or project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send message →</button>
+        <p class="form-note" id="formNote">This opens your email client with the message pre-filled.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo">Dagim Derbe<span></span></a>
+      <p>Student developer building real projects, one commit at a time. Currently looking for my first internship or junior role.</p>
+      <div class="social-row footer-social">
+        <!-- Replace href="#" with your GitHub profile URL -->
+        <a href="https://github.com/dagi931" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.42 3.44 10 8.2 11.63.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.44-1.34-1.83-1.34-1.83-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6 0c2.28-1.6 3.29-1.27 3.29-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.97 1.24 3.32 0 4.76-2.81 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.38 0 .33.21.72.83.6C20.57 22.3 24 17.71 24 12.3 24 5.5 18.63 0 12 0z"/></svg></a>
+        <!-- Replace href="#" with your LinkedIn profile URL -->
+        <a href="https://www.linkedin.com/in/dagim-derbe-9061a4311?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <!-- Replace href="#" with your Telegram username link -->
+        <a href="https://t.me/Dagi931" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.05 2.34a1.4 1.4 0 0 0-1.44-.2L2.62 9.2a1.32 1.32 0 0 0 .1 2.47l4.4 1.42 1.68 5.4c.15.47.55.8 1.03.8.3 0 .58-.13.79-.35l2.46-2.55 4.3 3.16c.23.17.5.26.79.26.18 0 .36-.04.53-.11.42-.19.72-.57.79-1.02l2.98-15.2c.1-.48-.07-.96-.48-1.24zM8.9 12.63l8.98-5.53-7.34 6.9-.32 2.98-1.32-4.35z"/></svg></a>
+        <!-- Replace href="#" with your WhatsApp link, e.g. https://wa.me/1234567890 -->
+        <a href="https://wa.me/qr/KWXI6XHLU25FK1" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.97-.93-.27-.1-.46-.15-.65.14-.2.3-.75.93-.92 1.12-.17.2-.34.22-.63.08-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.43-1.7-1.6-1.99-.17-.3-.02-.46.13-.6.13-.13.29-.34.44-.51.15-.17.2-.3.29-.49.1-.2.05-.37-.02-.51-.08-.15-.65-1.57-.9-2.15-.24-.57-.48-.49-.65-.5h-.56c-.2 0-.5.07-.77.37-.26.3-1 .98-1 2.4 0 1.4 1.03 2.76 1.17 2.95.15.2 2.02 3.08 4.9 4.32.69.3 1.22.47 1.64.6.69.22 1.32.19 1.81.11.55-.08 1.7-.7 1.94-1.36.24-.68.24-1.26.17-1.38-.07-.12-.26-.2-.55-.34z"/><path d="M12 2a10 10 0 0 0-8.6 15.02L2 22l5.13-1.35A10 10 0 1 0 12 2zm0 18.15a8.13 8.13 0 0 1-4.15-1.14l-.3-.18-3.05.8.82-2.97-.2-.3A8.15 8.15 0 1 1 12 20.15z"/></svg></a>
+        <!-- Replace href="#" with your Twitter/X profile URL -->
+        <a href="https://x.com/DagimDerbe" aria-label="Twitter/X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.1-9.3L1 2h7.1l4.9 6L18.9 2zm-1.2 18h1.9L7.3 4h-2l12.4 16z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get in touch</h4>
+      <ul>
+        <li><a href="mailto:dagiderbe59@gmail.com">dagiderbe59@gmail.com</a></li>
+        <li><span>Remote · Worldwide</span></li>
+        <li><a href="#" download>Download resume</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <span>© 2026 Alex Rivera. Built with HTML &amp; CSS — no frameworks.</span>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu toggle
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.getElementById('navLinks');
+  menuToggle && menuToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+  navLinks && navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Contact form -> opens the visitor's email client with the message pre-filled
+  const contactForm = document.getElementById('contactForm');
+  const formNote = document.getElementById('formNote');
+  contactForm && contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('fname').value.trim();
+    const email = document.getElementById('femail').value.trim();
+    const message = document.getElementById('fmsg').value.trim();
+    const subject = encodeURIComponent(`Portfolio contact from ${name}`);
+    const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
+    window.location.href = `mailto:hello@alexrivera.dev?subject=${subject}&body=${body}`;
+    if (formNote) {
+      formNote.textContent = 'Opening your email client…';
+    }
+  });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+
+</body>
+</html>
